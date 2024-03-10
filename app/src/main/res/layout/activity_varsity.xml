@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".VarsityActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:background="@drawable/download">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:padding="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/crdVarsity1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="2dp"
+                    android:clickable="true"
+                    app:cardCornerRadius="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="16dp">
+
+                        <ImageView
+                            android:id="@+id/imFoto1"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:layout_marginTop="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/varsity1" />
+
+                        <TextView
+                            android:id="@+id/etTextViewTitle1"
+                            android:layout_width="235dp"
+                            android:layout_height="55dp"
+                            android:layout_alignTop="@id/imFoto1"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="-1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_toEndOf="@id/imFoto1"
+                            android:gravity="center"
+                            android:text="Varsity Ap Breen "
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/etTextViewDescription1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etTextViewTitle1"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_toEndOf="@id/imFoto1"
+                            android:gravity="center"
+                            android:text=" •Kualitas : SUPER PREMIUM•
+                                           •Grade original/1:1 original Quality•
+                                           •Import : Made in philippines•
+                                           •Material : Kain Baby Terry•"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/etMoney1"
+                            android:layout_width="246dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etTextViewTitle1"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="109dp"
+                            android:layout_toEndOf="@id/imFoto1"
+                            android:text="RP. 1.500.000"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/etTextHarga1"
+                            android:layout_width="250dp"
+                            android:layout_height="24dp"
+                            android:layout_below="@id/etTextViewTitle1"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="90dp"
+                            android:layout_toEndOf="@id/imFoto1"
+                            android:text="HARGA"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/crdVarsity2"
+                    android:layout_below="@id/crdVarsity1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="2dp"
+                    android:clickable="true"
+                    app:cardCornerRadius="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="16dp">
+
+                        <ImageView
+                            android:id="@+id/imFoto2"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:layout_marginTop="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/varsity2" />
+
+                        <TextView
+                            android:id="@+id/textViewTitle2"
+                            android:layout_width="235dp"
+                            android:layout_height="55dp"
+                            android:layout_alignTop="@id/imFoto2"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="-1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_toEndOf="@id/imFoto2"
+                            android:gravity="center"
+                            android:text="Varsity Echo"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewDescription2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textViewTitle2"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_toEndOf="@id/imFoto2"
+                            android:gravity="center"
+                            android:text=" •Kualitas : SUPER PREMIUM•
+                                           •Grade original/1:1 original Quality•
+                                           •Import : Made in philippines•
+                                           •Material : Kain Baby Terry•"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/etMoney2"
+                            android:layout_width="246dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textViewTitle2"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="109dp"
+                            android:layout_toEndOf="@id/imFoto2"
+                            android:text="RP. 1.500.000"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/etTextHarga2"
+                            android:layout_width="250dp"
+                            android:layout_height="24dp"
+                            android:layout_below="@id/textViewTitle2"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="90dp"
+                            android:layout_toEndOf="@id/imFoto2"
+                            android:text="HARGA"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/crdVarsity3"
+                    android:layout_below="@id/crdVarsity2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="2dp"
+                    android:clickable="true"
+                    app:cardCornerRadius="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="16dp">
+
+                        <ImageView
+                            android:id="@+id/imFoto3"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:layout_marginTop="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/varsity3" />
+
+                        <TextView
+                            android:id="@+id/etTextViewTitle3"
+                            android:layout_width="235dp"
+                            android:layout_height="55dp"
+                            android:layout_alignTop="@id/imFoto3"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="-1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_toEndOf="@id/imFoto3"
+                            android:gravity="center"
+                            android:text="Varsity RRQ"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/etTextViewDescription3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etTextViewTitle3"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_toEndOf="@id/imFoto3"
+                            android:gravity="center"
+                            android:text=" •Kualitas : SUPER PREMIUM•
+                                           •Grade original / 1:1 original Quality•
+                                           •Import : Made in Indonesia•
+                                           •Material : Kain Baby Terry• "
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/etMoney3"
+                            android:layout_width="246dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etTextViewTitle3"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="109dp"
+                            android:layout_toEndOf="@id/imFoto3"
+                            android:text="RP. 1.500.000"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/etTextHarga3"
+                            android:layout_width="250dp"
+                            android:layout_height="24dp"
+                            android:layout_below="@id/etTextViewTitle3"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="90dp"
+                            android:layout_toEndOf="@id/imFoto3"
+                            android:text="HARGA"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/crdVarsity4"
+                    android:layout_below="@id/crdVarsity3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="2dp"
+                    android:clickable="true"
+                    app:cardCornerRadius="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="16dp">
+
+                        <ImageView
+                            android:id="@+id/imFoto4"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:layout_marginTop="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/varsity4" />
+
+                        <TextView
+                            android:id="@+id/etTextViewTitle4"
+                            android:layout_width="235dp"
+                            android:layout_height="55dp"
+                            android:layout_alignTop="@id/imFoto4"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="-1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_toEndOf="@id/imFoto4"
+                            android:gravity="center"
+                            android:text="Varsity RRQ x 3Second"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/etTextViewDescription4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etTextViewTitle4"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_toEndOf="@id/imFoto4"
+                            android:gravity="center"
+                            android:text=" •Kualitas : SUPER PREMIUM•
+                                           •Grade original / 1:1 original Quality•
+                                           •Import : Made in Indonesia•
+                                           •Material : Kain Baby Terry• "
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/etMoney4"
+                            android:layout_width="246dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etTextViewTitle4"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="109dp"
+                            android:layout_toEndOf="@id/imFoto4"
+                            android:text="RP. 1.500.000"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/etTextHarga4"
+                            android:layout_width="250dp"
+                            android:layout_height="24dp"
+                            android:layout_below="@id/etTextViewTitle4"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="90dp"
+                            android:layout_toEndOf="@id/imFoto4"
+                            android:text="HARGA"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/crdVarsity5"
+                    android:layout_below="@id/crdVarsity4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="2dp"
+                    android:clickable="true"
+                    app:cardCornerRadius="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="16dp">
+
+                        <ImageView
+                            android:id="@+id/imFoto5"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:layout_marginTop="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/varsity5" />
+
+                        <TextView
+                            android:id="@+id/etTextViewTitle5"
+                            android:layout_width="235dp"
+                            android:layout_height="55dp"
+                            android:layout_alignTop="@id/imFoto5"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="-1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_toEndOf="@id/imFoto5"
+                            android:gravity="center"
+                            android:text="Varsity Onic"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/etTextViewDescription5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etTextViewTitle5"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_toEndOf="@id/imFoto5"
+                            android:gravity="center"
+                            android:text=" •Kualitas : SUPER PREMIUM•
+                                           •Grade original / 1:1 original Quality•
+                                           •Import : Made in Indonesia•
+                                           •Material : Kain Baby Terry•"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/etMoney5"
+                            android:layout_width="246dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etTextViewTitle5"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="109dp"
+                            android:layout_toEndOf="@id/imFoto5"
+                            android:text="RP. 1.500.000"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/etTextHarga5"
+                            android:layout_width="250dp"
+                            android:layout_height="24dp"
+                            android:layout_below="@id/etTextViewTitle5"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="90dp"
+                            android:layout_toEndOf="@id/imFoto5"
+                            android:text="HARGA"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>
